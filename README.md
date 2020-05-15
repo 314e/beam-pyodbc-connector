@@ -45,4 +45,4 @@ write_to_db = WriteToDB(
 ```
 
 ## License
-MIT License. Please refer to the [LICENSE.txt](https://github.com/314e/beam-pyodbc-connector/blob/master/LICENSE), for further details.
+MIT License. Please refer to the [LICENSE](https://github.com/314e/beam-pyodbc-connector/blob/master/LICENSE), for further details.

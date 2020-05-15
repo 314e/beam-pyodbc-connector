@@ -1,0 +1,4 @@
+mypy  # static type checker
+yapf  # python formatting tool
+twine # for uploading to pypi
+flake8 # linting

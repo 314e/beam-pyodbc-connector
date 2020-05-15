@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "beam-pyodbc-connector"
+version = "0.0.1"
+description = "pyodbc I/O Connector for Apache Beam"
+authors = ["Kesav Kolla <kesav@314ecorp.com>"]
+license = "MIT"
+readme = "README.md"
+homepage  = "https://github.com/314e/beam-pyodbc-connector"
+repository = "https://github.com/314e/beam-pyodbc-connector"
+keywords = ["apache beam", "odbc", "connector"]
+classifiers = [
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.5",
+	"Programming Language :: Python :: 3.6",
+	"Programming Language :: Python :: 3.7",
+]
+packages = [
+	{include = "beam_pyodbc"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+apache-beam = "^2.20.0"
+pyodbc = "^4.0.30"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/314e/beam-pyodbc-connector/issues"
+"Source Code" = "https://github.com/314e/beam-pyodbc-connector"
+"Documentation" = "https://github.com/314e/beam-pyodbc-connector"
